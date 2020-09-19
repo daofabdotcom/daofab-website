@@ -1,0 +1,35 @@
+a{
+    color: #002664;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h2{
+    color: #002664;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p{
+    color: #000000;
+    font-size: large;
+}
+
+.hbg{
+    background: #f2f5fc;
+}
+
+.btn-outline-primary{
+    background-color: #002664 !important;
+    color: #ffffff !important;
+    border-color: #002664 !important;
+    border-width: 2px !important;
+    font-weight: bold;
+    padding: 10px 16px 10px 16px !important;
+    border-radius: 10px;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+    background-color: #ffffff !important;
+    color: #002664 !important;
+}
