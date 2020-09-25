@@ -39,7 +39,7 @@ export class AppComponent {
   }
 
   partner() {
-    window.open('mailto:info@daofab.com?subject=Partner with DAOFAB&body=Partner with DAOFAB');
+    window.location.assign('mailto:info@daofab.com?subject=Partner with DAOFAB&body=Partner with DAOFAB');
   }
 
 }
