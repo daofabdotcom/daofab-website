@@ -7,7 +7,7 @@ a{
 h2{
     color: #002664;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 28px;
 }
 
 p{
@@ -15,8 +15,93 @@ p{
     font-size: large;
 }
 
+@media(max-width:576px){
+    h2{
+        font-size: 3.0vw;
+    }
+    p{
+        font-size: 3.0vw;
+    }
+    .dbtn-outline-primary{
+        font-size: 3.0vw;
+    }
+    .btn-outline-primary{
+        font-size: 3.0vw;
+    }
+    .header-left{
+        padding-top: 5px;
+    }
+    /* .digital-bg{
+        background-image: url('/assets/img/Blue-background.png'); 
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    } */
+    .brand{
+        width: 100px;
+    
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .header-left{
+        padding-left: 100px;
+        margin: auto;
+     } 
+     .header-right{
+        padding-right: 50px;
+        margin: auto;
+     } 
+     .digital-bg{
+        /* background-image: url('/assets/img/Blue-background.png');  */
+        /* background-repeat: no-repeat; */
+        /* background-size: contain; */
+        height: 600px;
+    }
+    .brand{
+        width: 50%;
+        padding-right: 300px;
+    
+    }
+    .title{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .desc{
+        padding-bottom: 20px;
+    }
+    .qa-desc{
+        padding-top: 20px;
+    }
+    
+  }
+
+.copy-right{
+    font-size: 12px;
+}
+
+.r1bg{
+    background: #262955;
+}
+
 .hbg{
     background: #f2f5fc;
+}
+
+.dbtn-outline-primary{
+    background-color: #ffffff !important;
+    color: #002664 !important;
+    border-color: #ffffff !important;
+    border-width: 2px !important;
+    font-weight: bold;
+    padding: 10px 16px 10px 16px !important;
+    border-radius: 10px;
+}
+
+.dbtn-outline-primary:hover, .dbtn-outline-primary:active, .dbtn-outline-primary:visited {
+    background-color: #002664 !important;
+    color: #ffffff !important;
 }
 
 .btn-outline-primary{
@@ -32,4 +117,25 @@ p{
 .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
     background-color: #ffffff !important;
     color: #002664 !important;
+}
+
+
+
+.di-a{
+    color: #ffffff !important;
+}
+
+.tr-h{
+    margin: auto;
+    width: 70%;
+}
+
+.tr-h-i{
+    max-width: 70%;
+    margin: auto;
+}
+
+
+.header-item{
+    padding-right: 50px;
 }
