@@ -42,4 +42,7 @@ export class AppComponent {
     window.location.assign('mailto:info@daofab.com?subject=Partner with DAOFAB&body=Partner with DAOFAB');
   }
 
+downloadBrochure() {
+    window.open("https://bit.ly/daofabescrow");
+  }
 }

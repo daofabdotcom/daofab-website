@@ -1,206 +1,415 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      DAOFAB - A Decentralised Autonomous Organisation For All Businesses
+    </title>
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>DAOFAB - A Decentralised Autonomous Organisation For All Businesses</title>
-
-</head>
-
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="assets/img/DaoFABLogo.png" class="navbar-brand brand">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <body id="#top">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+      <img src="assets/img/DaoFABLogo.png" class="navbar-brand brand" />
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto">
-          <a href="#pro-service" class="text-decoration-none nav-item header-item">PROFESSIONAL SERVICES</a>
-          <a href="#" class="text-decoration-none nav-item header-item"
-              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalfab/productdemo'});return false;">SCHEDULE
-              A DEMO</a>
-          <a href="#faq" class="text-decoration-none nav-item header-item">FAQ</a>
+        <div class="navbar-nav">
+          <a
+            href="#pro-service"
+            class="text-decoration-none nav-item header-item"
+            id="pBottom"
+            >PROFESSIONAL SERVICES</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none nav-item header-item"
+            id="pBottom"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalfab/productdemo'});return false;"
+            >SCHEDULE A DEMO</a
+          >
+          <a
+            href="#faq"
+            class="text-decoration-none nav-item header-item"
+            id="pBottom"
+            >FAQ</a
+          >
         </div>
-      </div>
-    </nav>
-    <div class="row r1bg digital-bg">
-      
-      <div class="col-lg-6 col-md-6 col-sm-2 align-self-center text-center">
-        <img src="assets/img/Main-banner.png" width="90%">
-        <!-- <img src="assets/img/DaoFAB-Website-Banner-Main.jpg" width="100%"> -->
-
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-10 header-left text-center">
-        <h2 class="di-a title">DIGITAL ESCROW NETWORK
-           <br> FOR COMMERCIAL TRANSACTIONS</h2>
-        <p class="di-a desc pl-5 pr-5">Hold, receive and send multi-currency digital tokens and assets via your company’s digital
-          wallet. Earn
-          interests on your digital tokens and assets.</p>
-        <button type="button" class="btn btn-lg dbtn-outline-primary"
-          onclick="window.location.assign('mailto:info@daofab.com')">OPEN YOUR COMPANY DIGITAL WALLET</button>
-        <p class="text-muted font-italic di-a"><small>* Early access through our trusted partners</small></p>
-      </div>
-    </div>
-    
-    <div class="row digital-bg pb-4" id="pro-service">
-      <div class="col-lg-6 col-md-6 col-sm-6 align-self-center text-center">
-        <img src="assets/img/Escrow.png" width="70%">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 header-left align-items-center text-center">
-        <h2 class="pt-2 title">NON-CUSTODIAL ESCROW</h2>
-        <p class="desc pl-5 pr-5">Provide non-custodial escrow on other different blockchain networks.
-          Minimise counterparty risk for your clients, a better and safer way to transact. 
-          Supports multi-currencies including United States Dollar, Euro and Singapore Dollar.</p>
-        <button type="button" class="btn btn-lg btn-outline-primary"
-          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalfab/productdemo'});return false;">SCHEDULE
-          A DEMO</button>
-      </div>
-    </div>
-    <div class="row hbg digital-bg">
-      <div class="col-lg-6 col-md-6 col-sm-6 align-self-center text-center">
-        <!-- <img src="assets/img/Funds Management.png" width="70%"> -->
-        <img src="assets/img/File-Storage.png" width="70%">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 header-left text-center">
-        <h2 class="pt-2 title">FUND MANAGEMENT</h2>
-        <p class="desc pl-5 pr-5">A blockchain-backed platform to create, manage and disburse funds contained in non-custodial escrow. Secure
-          signing through your company’s multi-signature wallet that can mirror your bank signing mandate.</p>
-      </div>
-    </div>
-    <div class="row digital-bg">
-      <div class="col-lg-6 col-md-6 col-sm-6 header-left align-self-center text-center">
-        <img src="assets/img/Notification.png" width="70%">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6  header-left text-center">
-        <h2 class="pt-2 title">REAL-TIME TRANSACTION NOTIFICATIONS</h2>
-        <p class="desc pl-5 pr-5">Send and receive real-time transaction notifications via the platform. Verify and monitor funds locked in
-          escrow using the blockchain network.</p>
-      </div>
-    </div>
-    <div class="row hbg align-items-center digital-bg">
-      <div class="col-lg-6 col-md-6 col-sm-6 align-self-center text-center">
-        <img src="assets/img/DigitalAssets.png" width="70%">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 header-left text-center">
-        <h2 class="pt-2 title">YOUR COMPANY AT A GLANCE</h2>
-        <p class="desc pl-5 pr-5">Secure signing mechanism to authorise release of funds and perform fund transfer transaction based on your
-          company’s pre-determined signing mandate.</p>
-      </div>
-    </div>
-    <!-- <div class="row pl-3 pt-4 pb-4 align-items-center hbg" id="schedule">
-      <div class="col-5 text-center">
-        <img src="assets/img/Subscribe.png" width="40%">
-      </div>
-      <div class="col-7">
-        <h2>STAY INFORMED AND SUBSCRIBE FOR EARLY ACCESS</h2>
-        <div class="row align-items-center">
-          <div class="col"><input type="text" class="form-control-lg col-12" placeholder="ENTER EMAIL ADDRESS" [(ngModel)]="email"></div>
-          <div class="col text-left"><button type="button" class="btn btn-lg btn-outline-primary"
-              (click)="subcribe()">SUBSCRIBE</button>
+        <div class="col-1" id="noPadding">
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-primary btn-outline-primary-reverse"
+            >
+              LOGIN
+            </button>
           </div>
         </div>
       </div>
-    </div> -->
-    <div class="row pt-4 pb-4">
-      <div class="col-lg-6 col-md-4 col-sm-6 header-left align-self-center text-center">
-        <img src="assets/img/Support.png" width="40%">
+    </nav>
+    <div class="container-fluid">
+      <div class="row r1bg digital-bg">
+        <div class="col-lg-6 col-md-6 col-sm-10 header-left">
+          <h2 class="di-a title" id="pTop">
+            DIGITAL ESCROW NETWORK <br />
+            FOR COMMERCIAL TRANSACTIONS
+          </h2>
+          <p class="di-a desc">
+            Hold, receive and send multi-currency digital tokens and assets via
+            your company’s digital wallet. Earn interests on your digital tokens
+            and assets.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg dbtn-outline-primary"
+            onclick="window.location.assign('mailto:info@daofab.com')"
+          >
+            OPEN YOUR COMPANY DIGITAL WALLET
+          </button>
+          <p class="text-muted font-italic di-a">
+            <small>* Early access through our trusted partners</small>
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-2 align-self-center text-center">
+          <img src="assets/img/Main-banner.png" width="90%" />
+          <!-- <img src="assets/img/DaoFAB-Website-Banner-Main.jpg" width="100%"> -->
+        </div>
       </div>
-      <div class="col-lg-6 col-md-8 col-sm-6  header-left text-center">
-        <h2 class="pt-2 pb-4 title pl-5 pr-5">QUESTIONS? USE OUR LIVE CHAT FUNCTION TO SPEAK TO US</h2>
-        <button type="button" class="btn btn-lg btn-outline-primary" onclick="tidioChatApi.open()">CHAT WITH US</button>
+
+      <div class="row pl-3 pr-3 align-items-center hbg" id="pro-service">
+        <div
+          class="col-lg-6 pt-4 col-md-6 col-sm-12 d-flex justify-content-center"
+        >
+          <img src="assets/img/Escrow.png" width="70%" />
+        </div>
+        <div class="p-4 col-lg-6 col-md-6 col-sm-12">
+          <h2 class="pb-4">NON-CUSTODIAL ESCROW</h2>
+          <p class="pb-4 text-justify">
+            An end-to-end, non-custodial, interest-bearing digital escrow
+            network that leverages on programmable money on different blockchain
+            networks to enable more efficient, transparent and accessible value
+            transfer for all businesses. Support leading stablecoins such as
+            United States Dollar, Euro and Singapore Dollar.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            WATCH 1-MIN DEMO VIDEO
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="row hbg digital-bg pb-4">
-      <div class="col-lg-6 col-md-6 col-sm-6 align-self-center text-center">
-        <img src="assets/img/Partners.png" width="70%">
+      <div class="row pl-3 pr-3 align-items-center reverse">
+        <div class="p-4 col-lg-6 col-md-6">
+          <h2 class="pb-4">
+            CUSTODY AND AGENCY SERVICES <br />
+            ESCROW-AS-A-SERVICE
+          </h2>
+          <p class="pb-4 text-justify">
+            Accessible via APIs, integrate with your existing core banking
+            modules and white-label our modular solution for professional
+            intermediaries, non-bank financial institutions, law firms, trust
+            companies and escrow agents.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-primary"
+            (click)="downloadBrochure()"
+          >
+            DOWNLOAD BROCHURE
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-6 pt-4 text-center">
+          <img src="assets/img/File-Storage.png" width="70%" />
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 header-left text-center">
-        <h2 class="pt-2 title">YOUR TRUSTED PARTNER</h2>
-        <p class="desc pl-5 pr-5">Earn professional fees by offering escrow, trust related services and other professional 
-          services on a solution white-labelled for your requirements. Speak to us about adopting our solutions today.</p>
-        <button type="button" class="btn btn-lg btn-outline-primary" (click)="partner()">PARTNER WITH US</button>
+      <div class="row pl-3 pr-3 align-items-center hbg">
+        <div class="col-lg-6 col-md-6 d-flex pt-4 justify-content-center">
+          <img src="assets/img/Notification.png" width="70%" />
+        </div>
+        <div class="p-4 col-lg-6 col-md-6">
+          <h2 class="pb-4">24/7 MOVEMENT OF VALUE</h2>
+          <p class="pb-4 text-justify">
+            Secure signing through your company’s multi-signature wallet that
+            can mirror your bank signing mandate to automatically execute based
+            on a pre-determined milestone or event.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-primary"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalfab/productdemo'});return false;"
+          >
+            SCHEDULE A DEMO
+          </button>
+        </div>
       </div>
-    </div>
-  
-    <!-- <div class="row pt-4 pb-4 align-items-center">
+      <div class="row pl-3 pr-3 reverse align-items-center">
+        <div class="p-4 col-lg-6 col-md-6">
+          <h2 class="pb-4">REAL-TIME TRANSACTION NOTIFICATION</h2>
+          <p class="text-justify">
+            Send and receive real-time transaction notifications via the
+            platform. Verify and monitor funds locked in escrow using the
+            blockchain network.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 pb-4 text-center pt-4">
+          <img src="assets/img/DigitalAssets.png" width="70%" />
+        </div>
+      </div>
+      <div
+        class="row pl-3 pt-4 pb-4 hbg d-flex align-items-center"
+        id="schedule"
+      >
+        <div
+          class="col-md-4 col-xl-4 col-sm-12 d-flex justify-content-end"
+          id="imgSubscribe"
+        >
+          <img class="mr-4" src="assets/img/Subscribe.png" width="40%" />
+        </div>
+        <div class="col-md-8 col-xl-8 col-sm-12">
+          <h2>STAY INFORMED AND SUBSCRIBE FOR EARLY ACCESS</h2>
+          <div class="row align-items-center">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control-lg col-12"
+                placeholder="ENTER EMAIL ADDRESS"
+                id="emailInput"
+                [(ngModel)]="email"
+              />
+            </div>
+            <div class="col text-left">
+              <button
+                type="button"
+                class="btn btn-lg btn-outline-primary"
+                (click)="subcribe()"
+              >
+                SUBSCRIBE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pl-3 pr-3 reverse align-items-center">
+        <div class="p-4 col-lg-6 col-md-6">
+          <h2 class="pb-4">YOUR TRUSTED PARTNER</h2>
+          <p class="pb-4 text-justify">
+            Earn professional fees by offering escrow, trust related services
+            and other professional services on DAOFAB. Speak to us about joining
+            us as a trusted partner today.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-primary"
+            (click)="partner()"
+          >
+            PARTNER WITH US
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center pb-4 pt-4">
+          <img src="assets/img/Partners.png" width="70%" />
+        </div>
+      </div>
+      <div class="row pl-3 pt-4 pb-4 align-items-center hbg">
+        <div class="col-4 text-center">
+          <img src="assets/img/Support.png" width="40%" />
+        </div>
+        <div class="col-8 text-left">
+          <h2>QUESTIONS? USE OUR LIVE CHAT FUNCTION TO SPEAK TO US</h2>
+          <br />
+          <button
+            type="button"
+            class="btn btn-lg btn-outline-primary"
+            onclick="tidioChatApi.open()"
+          >
+            CHAT WITH US
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="row pt-4 pb-4 align-items-center">
       <div class="text-center col-12">
         <h2>TRUSTED BY</h2>
       </div>
     </div> -->
-    <!-- <div class="row m-5 align-items-center"> -->
+      <!-- <div class="row m-5 align-items-center"> -->
       <!-- <img class="tr-h-i" src="assets/img/u50.png"> -->
-    <!-- </div> -->
-    <div class="row align-items-center">
-      <h2 class="tr-h text-center pt-4">DIGITAL ESCROW SOLUTION</h2>
-      <div class="col-lg-4 col-md-4 col-sm-auto text-center">
-        <img class="tr-h-i" src="assets/img/claim.png"> 
-        <p class="pl-5 pr-5">Simplify user journey for transacting parties and various professional intermediaries</p>
+      <!-- </div> -->
+      <div class="row align-items-center">
+        <h2 class="tr-h text-center pt-4">DIGITAL ESCROW SOLUTION</h2>
+        <div class="col-lg-4 col-md-4 col-sm-auto text-center">
+          <img class="tr-h-i" src="assets/img/claim.png" />
+          <p class="pl-5 pr-5">
+            Simplify user journey for transacting parties and various
+            professional intermediaries
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-auto text-center">
+          <img class="tr-h-i" src="assets/img/authentication-transaction.png" />
+          <p class="pl-5 pr-5">
+            Non-custodial escrow to comply with strict requirements of custody
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-auto text-center">
+          <img class="tr-h-i" src="assets/img/user-registration.png" />
+          <p class="pl-5 pr-5">
+            Real-time transactions notifications and settlement
+          </p>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-auto text-center">
-        <img class="tr-h-i" src="assets/img/authentication-transaction.png"> 
-        <p class="pl-5 pr-5">Non-custodial escrow to comply with strict requirements of custody</p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-auto text-center">
-        <img class="tr-h-i" src="assets/img/user-registration.png"> 
-        <p class="pl-5 pr-5">Real-time transactions notifications and settlement</p>
-      </div>
-    </div>
 
-    <div class="row pl-5 pr-5 pt-4 pb-4 align-items-center hbg" id="faq">
-      <div class="col-auto">
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
-        <p class="qa-desc"><b>How do I obtain tokens, digital assets or stable coins?</b>
-        <br>You may obtain tokens, digital assets or stable coins from any fiat to 
-        crypto exchange by exchanging fiat currency to tokens, digital assets or stable coins.
-        </p>
-        <p class="qa-desc"><b>How can I utilise this service as a professional services provider (e.g. trust company, escrow agents, law
-          firm)?</b><br>You may deploy our platform on a white label basis for your clients to utilise. Speak to us today to
-          understand our different deployment models available for professional service providers.</p>
-        <p class="qa-desc"><b>As a business, how do I sign-up for early access to the system?</b>
-        <br>You may sign-up for early access to the system through our Trusted Partners. If you are interested to
-        participate in our partner testing program, speak to us today and we can connect you with one of our Trusted
-        Partners to obtain early access to the system.</p>
-        <p class="qa-desc"><b>What type of use cases are you able to support?</b>
-        <br>We support a wide variety of use cases (e.g. deposit for mergers and acquisitions, trade finance, vessel sale
-        etc) where funds are locked pending completion of certain conditions. Our partners generally use a blockchain
-        settlement system to support real-time settlement or transactions which are traditionally not well supported
-        by the existing payment rails.</p>
-        <p class="qa-desc"><b>Do I need to obtain a bank account to obtain receipt of the funds?</b>
-        <br>A bank account is only required if you intend to convert the tokens, digital assets or stable coins to fiat
-        dollars. In all other instances, the digital assets are secured by a smart contract on the applicable
-        blockchain network to allow a professional service provider to provide certain services in a non-custodial
-        manner.</p>
+      <div class="row pl-5 pr-5 pt-4 pb-4 align-items-center hbg" id="faq">
+        <div class="col-auto pt-5 pb-5">
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+          <h5 class="font-weight-bold pt-3">Do you support fiat escrow?</h5>
+          <p>
+            Yes, we work with our partners to support fiat, digital asset or
+            stablecoin escrow.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            How do I obtain tokens, digital assets or stable coins?
+          </h5>
+          <p>
+            You may obtain tokens, digital assets or stable coins from different
+            on ramp providers such as a fiat to crypto exchange by exchanging
+            fiat currency to tokens, digital assets or stable coins.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            How can I utilise this service as a professional services provider
+            (e.g. trust company, escrow agents, law firm)?
+          </h5>
+          <p>
+            You may deploy our platform on a white label basis for your clients
+            to interact with any blockchain (public or private) and we can
+            support integration with different opening banking API. Speak to us
+            today to understand our different deployment models available for
+            professional service providers.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            As a business, how do I sign-up for early access to the system?
+          </h5>
+          <p>
+            You may sign-up for early access to the system through our Trusted
+            Partners. If you are interested to participate in our partner
+            testing program, speak to us today and we can connect you with one
+            of our Trusted Partners to obtain early access to the system.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            What type of use cases are you able to support?
+          </h5>
+          <p>
+            We support a wide variety of use cases (e.g. deposit for mergers and
+            acquisitions, trade finance, vessel sale etc) where funds are locked
+            pending completion of certain conditions. Our partners generally use
+            a blockchain settlement system to support real-time settlement or
+            transactions which are traditionally not well supported by the
+            existing payment rails.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            Do I need to obtain a bank account to obtain receipt of the funds?
+          </h5>
+          <p>
+            No, we work with our partners to enable funds to be off-ramped. In
+            all other instances, the digital assets are secured by a smart
+            contract on the applicable blockchain network to allow a
+            professional service provider to provide certain services in a
+            non-custodial manner.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            How does the stablecoins / digital asset in escrow generate yield?
+          </h5>
+          <p>
+            Parties to the escrow are able to lend the funds to Compound, a
+            leading decentralized finance protocol.
+          </p>
+          <h5 class="font-weight-bold pt-3">
+            The overall process sounds complicated, how does it work?
+          </h5>
+          <p>
+            The application works similar to your usual bank transfer (with more
+            customisation). Once the escrow is set-up, parties can jointly
+            decide on any release or revert of funds. Not yet convinced? View a
+            1-min video of the process.
+          </p>
+        </div>
+      </div>
+      <div class="row pt-4 align-items-center">
+        <div class="col-12 text-center">
+          <img src="assets/img/Symbol.png" width="10%" />
+        </div>
+      </div>
+      <div class="row pb-4 align-items-center">
+        <div class="col-12 text-center">
+          <a
+            href="https://medium.com/@daofab"
+            target="_blank"
+            class="text-decoration-none"
+            ><img src="assets/img/medium-icon.png" width="40"
+          /></a>
+          <a
+            href="https://www.facebook.com/daofab"
+            target="_blank"
+            class="text-decoration-none"
+            ><img src="assets/img/facebook.png" width="40"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/daofab"
+            target="_blank"
+            class="text-decoration-none"
+            ><img src="assets/img/linkedin.png" width="40"
+          /></a>
+        </div>
+      </div>
+      <div class="row pt-2 pb-3 border-light border-top">
+        <div class="col-12 text-center">
+          <p class="text-muted copy-right">
+            © Copyright 2020 DAOFAB. All Rights Reserved. ‘DAOFAB’, ‘DAOFAB
+            Token’ are used as unregistered trademarks.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="row pt-4 align-items-center">
-      <div class="col-12 text-center">
-        <img src="assets/img/Symbol.png" width="10%">
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-lg h-100"
+        role="document"
+      >
+        <div class="modal-content h-100" style="max-height: 480px">
+          <div class="modal-body h-100">
+            <iframe
+              src="https://drive.google.com/file/d/18jMQp3JGTx-9aG9aaatxPPyhtEAiVJfX/preview"
+              class="w-100 h-100"
+              style="max-height: 480px"
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row pb-4 align-items-center">
-      <div class="col-12 text-center">
-        <a href="https://medium.com/@daofab" target="_blank" class="text-decoration-none"><img
-            src="assets/img/medium-icon.png" width="40"></a>
-        <a href="https://www.facebook.com/daofab" target="_blank" class="text-decoration-none"><img
-            src="assets/img/facebook.png" width="40"></a>
-        <a href="https://www.linkedin.com/company/daofab" target="_blank" class="text-decoration-none"><img
-            src="assets/img/linkedin.png" width="40"></a>
-      </div>
-    </div>
-    <div class="row pt-2 pb-3 border-light border-top">
-      <div class="col-12 text-center">
-        <p class="text-muted copy-right">© Copyright 2020 DAOFAB. All Rights Reserved. ‘DAOFAB’, ‘DAOFAB Token’ are used as
-            unregistered trademarks.</p>
-      </div>
-    </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
 
 <router-outlet></router-outlet>
