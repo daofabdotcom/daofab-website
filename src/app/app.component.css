@@ -43,11 +43,9 @@ p {
   #noPadding {
     padding-left: 0;
   }
-  #pBottom {
+  .pBottom {
     padding-bottom: 0.5em;
-  }
-  #pTop {
-    padding-top: 2em;
+    font-size: 15px;
   }
   #emailInput {
     font-size: 10px;
@@ -57,6 +55,9 @@ p {
   }
   #imgSubscribe {
     justify-content: center !important;
+  }
+  .remove {
+    display: none !important;
   }
 }
 
