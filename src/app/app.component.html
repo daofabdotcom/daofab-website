@@ -77,7 +77,7 @@
           >
             OPEN YOUR COMPANY DIGITAL WALLET
           </button>
-          <p class="text-muted font-italic di-a">
+          <p class="text-muted font-italic di-a pb-3">
             <small>* Early access through our trusted partners</small>
           </p>
         </div>
@@ -109,7 +109,7 @@
           </p>
           <button
             type="button"
-            class="btn btn-lg btn-outline-primary"
+            class="btn btn-lg btn-outline-primary mb-2"
             data-toggle="modal"
             data-target="#exampleModal"
           >
@@ -131,7 +131,7 @@
           </p>
           <button
             type="button"
-            class="btn btn-lg btn-outline-primary"
+            class="btn btn-lg btn-outline-primary mb-2"
             (click)="downloadBrochure()"
           >
             DOWNLOAD BROCHURE
@@ -154,7 +154,7 @@
           </p>
           <button
             type="button"
-            class="btn btn-lg btn-outline-primary"
+            class="btn btn-lg btn-outline-primary mb-2"
             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalfab/productdemo'});return false;"
           >
             SCHEDULE A DEMO
@@ -186,26 +186,35 @@
         </div>
         <div class="col-md-8 col-xl-8 col-sm-12">
           <h2>STAY INFORMED AND SUBSCRIBE FOR EARLY ACCESS</h2>
-          <div class="row align-items-center">
-            <div class="col">
-              <input
-                type="text"
-                class="form-control-lg col-12"
-                placeholder="ENTER EMAIL ADDRESS"
-                id="emailInput"
-                [(ngModel)]="email"
-              />
+          <form
+            #form
+            action="https://daofab.us20.list-manage.com/subscribe/post?u=016ca2695065e0c9112de7cae&amp;id=e376eb9bc7"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+          >
+            <div class="row align-items-center">
+              <div class="col">
+                <input
+                  type="email"
+                  class="form-control-lg col-12 required email"
+                  placeholder="ENTER EMAIL ADDRESS"
+                  name="EMAIL"
+                  id="emailInput"
+                  [(ngModel)]="email"
+                />
+              </div>
+              <div class="col text-left">
+                <input
+                  type="submit"
+                  value="SUBSCRIBE"
+                  name="subscribe"
+                  class="btn btn-lg btn-outline-primary"
+                  (click)="form.submit()"
+                />
+              </div>
             </div>
-            <div class="col text-left">
-              <button
-                type="button"
-                class="btn btn-lg btn-outline-primary"
-                (click)="subcribe()"
-              >
-                SUBSCRIBE
-              </button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
       <div class="row pl-3 pr-3 reverse align-items-center">
@@ -218,7 +227,7 @@
           </p>
           <button
             type="button"
-            class="btn btn-lg btn-outline-primary"
+            class="btn btn-lg btn-outline-primary mb-2"
             (click)="partner()"
           >
             PARTNER WITH US
@@ -274,7 +283,6 @@
           </p>
         </div>
       </div>
-
       <div class="row pl-5 pr-5 pt-4 pb-4 align-items-center hbg" id="faq">
         <div class="col-auto pt-5 pb-5">
           <h2>FREQUENTLY ASKED QUESTIONS</h2>
