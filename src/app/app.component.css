@@ -177,9 +177,9 @@ p {
 #emailInput:hover::placeholder {
   color: #002664;
 }
-@media (min-width: 990px) and (max-width: 1100px) {
+@media (min-width: 990px) and (max-width: 1370px) {
   .header-item {
     padding-right: 40px;
-    font-size: large;
+    font-size: small;
   }
 }
